@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | REJOUICE®</title>
+    <link
+      rel="shortcut icon"
+      href="https://www.rejouice.com/assets/favicon/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      class="h-[100vh] w-full z-[99] absolute top-0 flex justify-center items-center gap-[10px] bg-[#000] text-[#faf8f3] text-[6vw] md:text-[3vw] lg:text-[2vw] font-[nb]"
+      id="loader"
+    >
+      <h3>Tomorrow's</h3>
+      <h3>Brands,</h3>
+      <h3>Today.™</h3>
+    </div>
+    <div id="main">
+      <section id="page1" class="h-[100vh] w-full relative font-[nb]">
+        <div
+          id="cursor"
+          class="h-[7.5vw] w-[7.5vw] rounded-[50%] scale-0 fixed hidden lg:flex justify-center items-center bg-[#ff5f38] text-[1vw] z-[2]"
+        >
+          Play Reel
+        </div>
+        <video
+          src="/Media/HeroBg.mp4"
+          autoplay
+          loop
+          muted
+          class="h-full w-full object-cover object-center absolute"
+        ></video>
+        <div
+          id="page1-content"
+          class="h-[100vh] w-full z-[4] relative overflow-hidden"
+        >
+          <div
+            id="dropdown"
+            class="h-[68vh] w-full bg-[#ff5f38] overflow-hidden z-[9] absolute font-[nb]"
+          >
+            <div
+              id="dropdownVideo"
+              class="w-[50%] h-[80%] hidden lg:flex flex-col absolute top-[7vw] left-[2vw] text-[1.2vw]"
+            >
+              <video
+                src="./Media/HeroBg.mp4"
+                autoplay
+                muted
+                loop
+                class="w-[50%] h-[55%] object-cover rounded-lg object-center"
+              ></video>
+              <div class="flex justify-between w-[50%]">
+                <div class="flex cursor-pointer">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="25"
+                    viewBox="0 0 4 6"
+                    class="pt-[0.5vw]"
+                  >
+                    <path
+                      d="M3.47669 2.67493C3.73935 2.87702 3.7363 3.27408 3.47058 3.47212L0.864538 5.4143C0.537145 5.6583 0.0711485 5.42822 0.0657971 5.01995L0.013533 1.03249C0.00805605 0.614631 0.487176 0.374829 0.818385 0.629658L3.47669 2.67493Z"
+                    ></path>
+                  </svg>
+                  <h1>Play reel</h1>
+                </div>
+                <h1>—01:18</h1>
+              </div>
+            </div>
+            <div
+              id="navLinks"
+              class="w-full lg:w-[40%] h-[90%] flex flex-col justify-center lg:justify-start p-[2vw] absolute top-[3vw] right-[0] text-[8vw] md:text-[5vw] lg:text-[3.5vw]"
+            >
+              <div class="overflow-hidden flex flex-col gap-[2px] w-max">
+                <h1
+                  class="w-max h-[10vw] md:h-[6vw] lg:h-[4vw] cursor-pointer translate-y-0 transition-all duration-500 hover:translate-y-[-130%]"
+                >
+                  Home<br />Home
+                </h1>
+                <div
+                  class="h-[2px] w-full transition-all duration-300 ease-in-out bg-[#000]"
+                ></div>
+              </div>
+              <div class="overflow-hidden flex flex-col gap-[2px] w-max">
+                <h1
+                  class="w-max h-[10vw] md:h-[6vw] lg:h-[4vw] translate-y-0 cursor-pointer transition-all duration-500 ease-in-out hover:translate-y-[-130%] peer"
+                >
+                  Work<br />Work
+                </h1>
+                <div
+                  class="h-[2px] w-[0] transition-all duration-300 ease-in-out bg-[#000]"
+                ></div>
+              </div>
+              <div class="overflow-hidden flex flex-col gap-[2px] w-max">
+                <h1
+                  class="w-max h-[10vw] md:h-[6vw] lg:h-[4vw] translate-y-0 cursor-pointer transition-all duration-500 ease-in-out hover:translate-y-[-130%] peer"
+                >
+                  Services & Models<br />Services & Models
+                </h1>
+                <div
+                  class="h-[2px] w-[0] transition-all duration-500 ease-in-out bg-[#000]"
+                ></div>
+              </div>
+              <div class="overflow-hidden flex flex-col gap-[2px] w-max">
+                <h1
+                  class="w-max h-[10vw] md:h-[6vw] lg:h-[4vw] translate-y-0 cursor-pointer transition-all duration-500 ease-in-out hover:translate-y-[-130%] peer"
+                >
+                  About<br />About
+                </h1>
+                <div
+                  class="h-[2px] w-[0] transition-all duration-500 ease-in-out bg-[#000]"
+                ></div>
+              </div>
+              <div
+                class="overflow-hidden flex flex-col gap-[2px] w-max mb-[1vw]"
+              >
+                <h1
+                  class="w-max h-[10vw] md:h-[6vw] lg:h-[4vw] translate-y-0 cursor-pointer transition-all duration-500 ease-in-out hover:translate-y-[-130%] peer"
+                >
+                  Contact<br />Contact
+                </h1>
+                <div
+                  class="h-[2px] w-[0] transition-all duration-500 ease-in-out bg-[#000]"
+                ></div>
+              </div>
+              <div
+                class="overflow-hidden relative h-[8vw] md:h-[3vw] w-[20vw] md:w-[11vw] rounded-md border-[1px] border-black text-[0.3em] px-[1vw] mb-[1vw] group"
+              >
+                <div
+                  class="h-[100%] w-full absolute top-0 left-0 flex justify-center items-center transition-all duration-300 ease-in-out group-hover:translate-y-[-100%]"
+                >
+                  Take a seat!
+                </div>
+                <div
+                  class="h-[100%] w-[0] overflow-hidden absolute top-0 left-0 flex bg-black text-[#ff5f38] justify-center items-center transition-all duration-500 ease-in-out group-hover:w-full"
+                >
+                  <h1
+                    id="navLinksBtn"
+                    class="translate-y-[150%] transition-all duration-500 ease-in-out group-hover:translate-y-0"
+                  >
+                    Take a seat!
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-[95%] h-[8%] flex flex-col md:flex-row justify-between md:items-center absolute bottom-10 md:bottom-0 mx-[2.5vw] md:border-t border-black text-[3.5vw] md:text-[1.8vw] lg:text-[1.3vw]"
+            >
+              <h1 class="hidden md:flex">Tomorrow's Brands, Today.™</h1>
+              <div
+                class="flex flex-col md:flex-row md:items-center gap-[1vw] text-[0.8em]"
+              >
+                <div class="flex gap-[4px]">
+                  <h1 class="peer cursor-pointer">X</h1>
+                  <span
+                    class="rotate-[-45deg] top-2 transition-all duration-200 ease-in peer-hover:rotate-0"
+                    >→</span
+                  >
+                </div>
+                <div class="flex">
+                  <h1 class="peer cursor-pointer">Instagram</h1>
+                  <span
+                    class="rotate-[-45deg] top-2 transition-all duration-200 ease-in peer-hover:rotate-0"
+                    >→</span
+                  >
+                </div>
+                <div class="flex">
+                  <h1 class="peer cursor-pointer">LinkedIn</h1>
+                  <span
+                    class="rotate-[-45deg] top-2 transition-all duration-200 ease-in peer-hover:rotate-0"
+                    >→</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <nav id="header" class="flex p-[2vw] relative z-[10] text-[1.5vw]">
+            <h1
+              id="headerLogo"
+              class="text-[3.5em] sm:text-[2.5em] lg:text-[1.2em] text-white transition-all duration-500 ease-in-out cursor-default"
+            >
+              The Veture Agency.
+            </h1>
+            <button
+              id="menuBtn"
+              class="text-[2em] lg:text-[1em] text-white absolute mt-[1vw] sm:mt-0 right-2 sm:right-10 flex flex-col gap-[0]"
+            >
+              <h1
+                class="relative w-max transition-all duration-700 ease-in-out peer"
+              >
+                Menu
+              </h1>
+              <div
+                id="menu-underline"
+                class="h-[2px] w-[0] transition-all duration-300 ease-in-out bg-[#fff] md:peer-hover:w-full"
+              ></div>
+            </button>
+          </nav>
+          <h1
+            class="title text-center overflow-hidden leading-[26vw] absolute bottom-0 lg:-bottom-[6%] left-[2%] flex gap-0 justify-center items-end text-[27vw] font-[Heading] text-[#faf8f3]"
+          >
+            <span>r</span>
+            <span>e</span>
+            <span class="rotate-180">r</span>
+            <span>o</span>
+            <span>u</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+          </h1>
+        </div>
+      </section>
+      <section
+        id="page2"
+        class="h-[55vh] sm:h-[60vh] md:h-[85vh] lg:h-[100vh] w-full bg-[#faf8f3] relative pt-[5.8vw] px-[3.3vw] font-[nb] text-[2vw] lg:text-[1.5vw]"
+      >
+        <div class="w-full flex flex-col">
+          <div
+            class="elem1 overflow-hidden w-full flex justify-between text-[1.3em] lg:text-[1em]"
+          >
+            <div>
+              <h1>Full-service creative agency.</h1>
+              <h1>Two engagement models.</h1>
+            </div>
+            <div class="flex items-end">
+              <h1>Paris & San Diego</h1>
+            </div>
+          </div>
+          <div id="underline1" class="w-full h-[1px] bg-black mt-2 mb-7"></div>
+        </div>
+        <div class="elem2 overflow-hidden text-[3em] leading-[1.07]">
+          <span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are a digital
+          </span>
+          <span>
+            brand accelerator. We design, develop, and scale market-defining
+          </span>
+          <span>
+            brands by unlocking their hidden potential. Choose full cash
+          </span>
+          <span>
+            compensation or offset up to 50% of our fees for equity in your
+          </span>
+          <span> company. Your vision, your decision. </span>
+        </div>
+      </section>
+      <section
+        id="page3"
+        class="h-max lg:min-h-[100vh] relative w-full bg-[#faf8f3] flex flex-col gap-[10vw] -mt-[5vw] sm:mt-0 px-[4vw] pb-[6vw] md:pb-[10vw] font-[nb]"
+      >
+        <div class="text-center group">
+          <h1 class="text-[1vw] mb-[1vw]">
+            Agency & venture
+            <span class="text-white bg-black rounded-xl px-2 py-1">Models</span
+            >&nbsp;&nbsp;<span
+              class="absolute rotate-[270deg] text-[1.5vw] font-[100]"
+              >↵</span
+            >
+          </h1>
+          <div class="w-full flex justify-center overflow-hidden">
+            <div class="flex items-center flex-col relative text-[4.2vw] w-max">
+              <h1 class="z-[8]">
+                Ex<span class="z-[9] bg-[#faf8f3]">p</span>lore our services
+              </h1>
+              <div
+                class="w-0 h-[1px] sm:h-[2px] lg:h-[4px] bg-black absolute bottom-[1vw] left-0 transition-all duration-700 ease-linear group-hover:w-full"
+              ></div>
+              <div
+                class="w-full h-[1px] sm:h-[2px] lg:h-[4px] bg-black absolute bottom-[1vw] left-0 group-hover:invisible"
+              ></div>
+            </div>
+          </div>
+          <div class="w-full flex justify-center">
+            <div class="flex items-center flex-col relative text-[4.2vw] w-max">
+              <h1 class="z-[8]">
+                & en<span class="z-[9] bg-[#faf8f3]">g</span>a<span
+                  class="z-[9] bg-[#faf8f3]"
+                  >g</span
+                >ement models.
+              </h1>
+              <div
+                class="w-0 h-[1px] sm:h-[2px] lg:h-[4px] bg-black absolute bottom-[1vw] left-0 transition-all duration-700 ease-linear group-hover:w-full"
+              ></div>
+              <div
+                class="w-full h-[1px] sm:h-[2px] lg:h-[4px] bg-black absolute bottom-[1vw] left-0 group-hover:invisible"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <section class="h-[40vh] lg:h-[85vh]">
+          <div class="flex justify-between mb-4 px-[1vw] relative">
+            <h1 class="text-[2vw]">Transforming visions into brands.</h1>
+            <div id="workLinks" class="text-[2vw] relative cursor-pointer">
+              <span class="absolute rotate-180 right-[12vw]">↵</span>See the
+              work
+            </div>
+          </div>
+          <div
+            class="w-full h-max lg:h-[80vh] flex items-start lg:items-center justify-evenly"
+          >
+            <div class="w-[32%] h-[30vh] md:h-[40vh] lg:h-full relative group">
+              <img
+                src="https://images.prismic.io/rejouice/d8e1fa1f-4f24-41e1-a249-098c62df5aff_Group+46+%281%29.jpg?auto=compress,format"
+                alt="work1"
+                class="w-full h-[100%] object-cover z-[2] object-center absolute ease-in-out duration-200 group-hover:invisible"
+              />
+              <video
+                src="/Media/video1.mp4"
+                autoplay
+                loop
+                muted
+                class="h-full w-full object-cover object-center invisible group-hover:visible"
+              ></video>
+            </div>
+            <div class="w-[32%] h-[30vh] md:h-[40vh] lg:h-full relative group">
+              <img
+                src="https://images.prismic.io/rejouice/e0350a3d-c390-4d97-af1a-5c86bc822b52_Group+3929.jpg?auto=compress,format"
+                alt="work2"
+                class="w-full h-[100%] object-cover z-[2] object-center absolute ease-in-out duration-200 group-hover:invisible"
+              />
+              <video
+                src="/Media/video2.mp4"
+                autoplay
+                loop
+                muted
+                class="h-full w-full object-cover object-center invisible group-hover:visible"
+              ></video>
+            </div>
+            <div class="w-[32%] h-[30vh] md:h-[40vh] lg:h-full relative group">
+              <img
+                src="https://images.prismic.io/rejouice/2874f084-ec6c-4a19-b025-a55c1e6db929_Group+3692.jpg?auto=compress,format"
+                alt="work3"
+                class="w-full h-[100%] object-cover z-[2] object-center absolute ease-in-out duration-200 group-hover:invisible"
+              />
+              <video
+                src="/Media/video3.mp4"
+                autoplay
+                loop
+                muted
+                class="h-full w-full object-cover object-center invisible group-hover:visible"
+              ></video>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section
+        id="page4"
+        class="min-h-[100vh] w-full bg-[#faf8f3] relative pt-[7vw] font-[nb] text-[2vw] lg:text-[1.5vw]"
+      >
+        <div class="w-full flex flex-col px-[3.5vw]">
+          <div class="elem4 overflow-hidden w-full text-[1.3em] lg:text-[1em]">
+            <div>
+              <h1>We operate on a simple philosophy:</h1>
+              <h1>Quality over quantity.</h1>
+            </div>
+          </div>
+          <div id="underline2" class="w-full h-[1px] bg-black mt-2 mb-7"></div>
+        </div>
+        <div
+          class="elem4 overflow-hidden text-[2.8em] leading-[1.07] pb-[4vw] px-[3.5vw]"
+        >
+          <span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We partner with 5
+          </span>
+          <span>
+            clients each year. This allows for intense focus on the
+            transformation
+          </span>
+          <span>
+            and launch of your brand by our very best team, which is the only
+            team
+          </span>
+          <span> we have. </span>
+        </div>
+        <div
+          id="cursor2"
+          class="h-[7.5vw] w-[7.5vw] rounded-[50%] scale-0 fixed hidden lg:flex justify-center text-white items-center bg-[#000] text-[0.8em] z-[6]"
+        >
+          Take it!
+        </div>
+        <div
+          id="video"
+          class="h-[80vh] lg:h-[100vh] w-full flex items-center justify-center relative px-0"
+        >
+          <video
+            src="https://www.rejouice.com/assets/videos/RJ-BALL-BLUE-ORANGE-scaled.webm"
+            muted
+            autoplay
+            loop
+            class="h-full w-full scale-[1.15] lg:scale-[1.4]"
+          ></video>
+          <div
+            class="h-[110%] sm:h-[160%] lg:h-full w-full flex items-center justify-center absolute"
+          >
+            <svg
+              id="svg"
+              class="abs tl:0 fit transform rotate:-90deg h-[38%] lg:h-[70%]"
+              viewBox="0 0 100 100"
+            >
+              <circle
+                cx="50"
+                cy="50"
+                r="49"
+                stroke="#fff"
+                stroke-width="0.25"
+                fill="none"
+                class="o:0.3 dasharray:302 dashoffset:604 (.in-view):dashoffset:400 (.in-view):tween:all,2.8s,easeOutSlow"
+              ></circle>
+              <circle
+                cx="50"
+                cy="50"
+                r="49"
+                stroke="#fff"
+                stroke-width="0.25"
+                fill="none"
+                class="dasharray:302 dashoffset:302 (.in-view):dashoffset:100 (.in-view):tween:all,2.8s,easeOutSlow"
+              ></circle>
+              <circle cx="50" cy="1" r="1" fill="#fff"></circle>
+            </svg>
+          </div>
+          <div
+            class="h-full w-full absolute top-0 flex items-center justify-center text-white"
+          >
+            <div class="h-[9.7vw] lg:h-[4.9vw] w-max flex overflow-hidden">
+              <h1
+                id="seats"
+                class="text-[8vw] lg:text-[4.2vw] flexjustify-start pr-2"
+              >
+                6<br />5<br />4<br />3
+              </h1>
+              <h1 class="text-[4vw] lg:text-[2.5vw] leading-[1]">
+                Seats<br />Left
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div id="video-bottom" class="px-[3.5vw] py-0 md:py-[3vw]">
+          <div class="w-full flex flex-col">
+            <div
+              class="elem5 overflow-hidden w-full text-[1.4em] lg:text-[1em]"
+            >
+              <div>
+                <h1>Harnessing emotions</h1>
+                <h1>to connect with your audience.</h1>
+              </div>
+            </div>
+            <div
+              id="underline3"
+              class="w-full h-[1px] bg-black mt-2 mb-7"
+            ></div>
+          </div>
+          <div class="elem5 overflow-hidden text-[2.8em] leading-[1.07]">
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data matters, yet
+            </span>
+            <span>
+              it's emotion that drives buying decisions. We don't believe in
+              'one
+            </span>
+            <span>
+              size fits all.' Instead, we collaborate closely with our clients
+              to
+            </span>
+            <span>
+              craft unique brand experiences that resonate with their audiences
+            </span>
+            <span> and boost their KPIs. </span>
+          </div>
+        </div>
+      </section>
+      <section
+        id="page5"
+        class="w-full h-[100vh] bg-[#faf8f3] relative flex flex-col items-center md:justify-center pt-[10vw] md:pt-0 font-[nb] pb-[4vw]"
+      >
+        <div
+          id="pag5Header"
+          class="h-max w-[95%] flex flex-col text-[8.5vw] font-[Heading] mt-[6vw]"
+        >
+          <div class="flex justify-between relative">
+            <h1>Get in touch.</h1>
+            <div
+              id="workLinks"
+              class="text-[2vw] absolute top-[30%] right-0 cursor-pointer"
+            >
+              <span class="mr-[0.5vw] absolute right-[100%] rotate-180">↵</span>
+              Contact
+            </div>
+          </div>
+          <div class="h-[2px] w-full bg-black"></div>
+        </div>
+        <div
+          id="swiper-div"
+          class="w-full h-[30vh] md:h-[40vh] sm:h-[36vh] lg:h-[55vh] -mt-[35vw] sm:-mt-[20vw] md:-mt-[20vh]"
+        >
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="https://images.prismic.io/rejouice/36450525-8a76-4a44-b6d4-59c00ad0b50d_RJ-Home-OuraRing-x2.png?auto=compress%2Cformat&fm=webp&width=2048"
+                  alt=""
+                />
+                <img
+                  src="https://images.prismic.io/rejouice/d3289122-3f25-43f3-b140-11a342a484d7_Mask+group+%2838%29.jpg?auto=compress%2Cformat&fm=webp&width=2048"
+                  alt=""
+                />
+                <img
+                  src="https://images.prismic.io/rejouice/57ac2830-96e7-4174-a104-b384126bf98c_fec955552eb681ff6c273774515e6c2e.jpg?auto=compress%2Cformat&fm=webp&width=2048"
+                  alt=""
+                />
+                <img
+                  src="https://images.prismic.io/rejouice/8059f4af-8ba3-4e5f-a14b-ba5ed760963f_Mask+group+%2839%29.jpg?auto=compress%2Cformat&fm=webp&width=2048"
+                  alt=""
+                />
+                <img
+                  src="https://images.prismic.io/rejouice/a19d8427-5008-4dce-afa4-5d66118a0463_d7a851a9d8e2eb36cf93ffe4a6fa3701.jpeg?auto=compress%2Cformat&fm=webp&width=2048"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="w-[19%]"
+                  src="https://images.prismic.io/rejouice/36450525-8a76-4a44-b6d4-59c00ad0b50d_RJ-Home-OuraRing-x2.png?auto=compress%2Cformat&fm=webp&width=2048"
+                  alt="ring"
+                />
+                <img
+                  class="w-[19%]"
+                  src="https://images.prismic.io/rejouice/d3289122-3f25-43f3-b140-11a342a484d7_Mask+group+%2838%29.jpg?auto=compress%2Cformat&fm=webp&width=2048"
+                  alt="car"
+                />
+                <img
+                  class="w-[19%]"
+                  src="https://images.prismic.io/rejouice/8059f4af-8ba3-4e5f-a14b-ba5ed760963f_Mask+group+%2839%29.jpg?auto=compress%2Cformat&fm=webp&width=2048"
+                  alt="truck"
+                />
+                <img
+                  class="w-[19%]"
+                  src="https://images.prismic.io/rejouice/a19d8427-5008-4dce-afa4-5d66118a0463_d7a851a9d8e2eb36cf93ffe4a6fa3701.jpeg?auto=compress%2Cformat&fm=webp&width=2048"
+                  alt="men"
+                />
+                <img
+                  src="https://images.prismic.io/rejouice/57ac2830-96e7-4174-a104-b384126bf98c_fec955552eb681ff6c273774515e6c2e.jpg?auto=compress%2Cformat&fm=webp&width=2048"
+                  alt="woman"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="page6"
+        class="w-full h-[100vh] bg-[#faf8f3] hidden lg:flex overflow-hidden"
+      >
+        <h1 class="text-[40vw] whitespace-nowrap font-[Heading]">
+          WE BUILD BRANDS!
+        </h1>
+      </section>
+      <section
+        id="page7"
+        class="h-[50vh] lg:h-[100vh] w-full bg-[#0e0e0e] text-[#fffcf1] text-[2vw] lg:text-[1vw] absolute overflow-hidden font-[nb] bottom-0 left-0 pt-[1.3vw]"
+      >
+        <div
+          class="h-full w-full flex flex-col overflow-hidden justify-between"
+        >
+          <div
+            id="page7Top"
+            class="w-full h-[30%] flex items-center overflow-hidden justify-between px-[2vw]"
+          >
+            <div class="flex flex-col gap-[1vw]">
+              <h1 class="text-[2em]">Relax. We got you.</h1>
+              <button
+                class="w-[60%] py-[0.8vw] rounded-lg text-[1.2em] border-2 border-[#fffcf1] hover:text-[#0e0e0e] hover:bg-[#fffcf1] duration-500 transition-all ease-in-out"
+              >
+                Take a seat
+              </button>
+            </div>
+            <div
+              class="flex h-max w-[20%] justify-between items-start text-[1.1em]"
+            >
+              <div class="flex flex-col w-[65%]">
+                <div class="flex flex-col w-max">
+                  <h1 class="cursor-pointer peer">Home</h1>
+                  <div
+                    class="w-[0] h-[1px] bg-[#fffcf1] transition-all duration-300 ease-in-out peer-hover:w-full"
+                  ></div>
+                </div>
+                <div class="flex flex-col w-max">
+                  <h1 class="cursor-pointer peer">Work</h1>
+                  <div
+                    class="w-[0] h-[1px] bg-[#fffcf1] transition-all duration-300 ease-in-out peer-hover:w-full"
+                  ></div>
+                </div>
+                <div class="flex flex-col w-max">
+                  <h1 class="cursor-pointer peer">About</h1>
+                  <div
+                    class="w-[0] h-[1px] bg-[#fffcf1] transition-all duration-300 ease-in-out peer-hover:w-full"
+                  ></div>
+                </div>
+                <div class="flex flex-col w-max">
+                  <h1 class="cursor-pointer peer">Services & Models</h1>
+                  <div
+                    class="w-[0] h-[1px] bg-[#fffcf1] transition-all duration-300 ease-in-out peer-hover:w-full"
+                  ></div>
+                </div>
+                <div class="flex flex-col w-max">
+                  <h1 class="cursor-pointer peer">Contact</h1>
+                  <div
+                    class="w-[0] h-[1px] bg-[#fffcf1] transition-all duration-300 ease-in-out peer-hover:w-full"
+                  ></div>
+                </div>
+              </div>
+              <div class="flex flex-col w-[35%]">
+                <div class="flex flex-col w-max">
+                  <h1 class="cursor-pointer peer flex gap-1">
+                    X<span class="rotate-[-45deg]">→</span>
+                  </h1>
+                  <div
+                    class="w-[0] h-[1px] bg-[#fffcf1] transition-all duration-300 ease-in-out peer-hover:w-[50%]"
+                  ></div>
+                </div>
+                <div class="flex flex-col w-max">
+                  <h1 class="cursor-pointer peer flex gap-1">
+                    Instagram<span class="rotate-[-45deg]">→</span>
+                  </h1>
+                  <div
+                    class="w-[0] h-[1px] bg-[#fffcf1] transition-all duration-300 ease-in-out peer-hover:w-[86%]"
+                  ></div>
+                </div>
+                <div class="flex flex-col w-max">
+                  <h1 class="cursor-pointer peer flex gap-1">
+                    LinkedIn<span class="rotate-[-45deg]">→</span>
+                  </h1>
+                  <div
+                    class="w-[0] h-[1px] bg-[#fffcf1] transition-all duration-300 ease-in-out peer-hover:w-[86%]"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="page7Bottom" class="flex flex-col w-full h-[70%] -mb-[4vw]">
+            <div class="flex justify-between text-[1.2em] px-[2vw]">
+              <h1>San Diego—California <br />Paris—France</h1>
+              <div class="flex w-[30%] justify-between">
+                <div>
+                  <h1 class="cursor-pointer peer">biz@rejouice.com</h1>
+                  <div
+                    class="w-[0] h-[1px] bg-[#fffcf1] transition-all duration-300 ease-in-out peer-hover:w-full"
+                  ></div>
+                </div>
+                <div>
+                  <h1 class="cursor-pointer peer">©2023 legal</h1>
+                  <div
+                    class="w-[0] h-[1px] bg-[#fffcf1] transition-all duration-300 ease-in-out peer-hover:w-full"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <h1
+              id="page7Logo"
+              class="title text-center h-full overflow-hidden leading-[1.07] text-[13.5em] mt-[25vw] sm:mt-0 lg:text-[27em] font-[Heading] text-[#faf8f3]"
+            >
+              rejouice
+            </h1>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"
+      integrity="sha512-7Au1ULjlT8PP1Ygs6mDZh9NuQD0A5prSrAUiPHMXpU6g3UMd8qesVnhug5X4RoDr35x5upNpx0A6Sisz1LSTXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"
+      integrity="sha512-LQQDtPAueBcmGXKdOBcMkrhrtqM7xR2bVrnMtYZ8ImAZhFlIb5xrMqQ6uZviyeSB+4mYj89ta8niiCIQM1Gj0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

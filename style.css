@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Heading;
+  src: url(/Fonts/Rejouice-Headline\ \(2\).ttf);
+}
+@font-face {
+  font-family: nb;
+  src: url(/Fonts/NBInternationalProBoo.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#workLinks::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  left: 0;
+  height: 1px;
+  background-color: #000;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+#workLinks:hover::after {
+  width: 100%;
+}
+
+.swiper {
+  width: 130%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.swiper-slide img {
+  width: 19%;
+  object-fit: cover;
+}
